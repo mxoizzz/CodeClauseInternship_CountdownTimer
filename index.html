@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                Event Countdown Timer
+            </h1>
+            <p>
+                Set your event date and time and watch the magic happen. Perfect for product launches, parties, or deadlines! 
+            </p>
+        </header>
+        <main>
+            <section class="left">
+                <h2>Configuration</h2>
+                <form id="CountdownForm">
+                    <label for="EventName">
+                        Event Name
+                    </label>
+                    <input type="text" name="Event" id="EventName" placeholder="Ex. Product Launch" required>
+                    <label for="EventDate">
+                        Select Date
+                    </label>
+                    <input type="date" name="Date" id="EventDate" required>
+                    <label for="EventTime">
+                        Select Time
+                    </label>
+                    <input type="time" name="Time" id="EventTime" required>
+
+                    <button type="submit">
+                        Start Countdown
+                    </button>
+                </form>
+            </section>
+            <section class="right">
+                <h2>Time Remaining</h2>
+                <div class="timer">
+                    <div class="box">
+                        <span id="days">00</span>
+                        <small>Days</small>
+                    </div>
+                    <div class="box">
+                        <span id="hours">00</span>
+                        <small>Hours</small>
+                    </div>
+                    <div class="box">
+                        <span id="minutes">00</span>
+                        <small>Minutes</small>
+                    </div>
+                    <div class="box">
+                        <span id="seconds">00</span>
+                        <small>Seconds</small>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
