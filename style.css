@@ -152,6 +152,7 @@ button:hover {
 
     .container{
         width: 95%;
+        margin: auto;
     }
     
     .timer {
@@ -170,3 +171,5 @@ button:hover {
         font-size: 28px;
     }
 }
+
+
