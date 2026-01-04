@@ -29,31 +29,10 @@ This project is developed as part of the **CodeClause Web Development Internship
 
 ## 📂 Project Structure
 
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
----
-
-## ⚙️ How It Works
-
-1. User enters an event name.
-2. User selects a future date and time.
-3. On clicking **Start Countdown**:
-   - The application calculates the time difference between the current time and the target time.
-   - The countdown updates every second using `setInterval`.
-4. When the countdown reaches zero, the timer stops automatically.
-
----
-
-## 🖥️ How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mxoizzz/CodeClauseInternship_EventCountdownTimer.git
-   ```
-
+├── index.html<br>
+├── style.css<br>
+├── script.js<br>
+└── README.md<br>
 
 ---
 
